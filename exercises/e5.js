@@ -12,7 +12,13 @@
  */
 
 // Your code goes here...
-
+let getDiffTwentySeven = (num) => {
+  if (num < 27) {
+    return 27 - num;
+  } else {
+    return Math.abs(27 - num) * 2;
+  }
+}
 
 
 
@@ -24,7 +30,13 @@
  */
 
 // Your code goes here
-
+let sumOfTwoIntegers = (num1, num2) => {
+  if(num1 != num2) {
+    return num1 + num2;
+  } else {
+    return (num1 + num2) * 3;
+  }
+}
 
 
 
@@ -38,7 +50,13 @@
  */
 
 // Your code goes here...
-
+let isOneOfThemOrTheirSumIsFourty = (n1, n2) => {
+  if(n1 === 40 || n2 === 40 || n1 + n2 == 40) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 
 
